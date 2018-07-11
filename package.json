@@ -1,0 +1,31 @@
+{
+  "name": "chat-app-using-node-and-web-sockets",
+  "version": "1.0.0",
+  "description": "projects uses web sockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamwebdev/Chat-App-using-node-and-web-sockets.git"
+  },
+  "keywords": [
+    "web",
+    "sockets",
+    "node",
+    "express"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamwebdev/Chat-App-using-node-and-web-sockets/issues"
+  },
+  "homepage": "https://github.com/gamwebdev/Chat-App-using-node-and-web-sockets#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.1"
+  }
+}
