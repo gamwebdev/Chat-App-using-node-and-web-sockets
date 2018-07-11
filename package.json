@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/gamwebdev/Chat-App-using-node-and-web-sockets#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.1"
