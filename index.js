@@ -10,6 +10,10 @@ var server = app.listen(4000, function(){
 var io = socket(server);
 io.on('connection', function(socket){
 	console.log(' connection made using web sockets ' + socket.id);
+
+	socket.on('chat', function(data){
+		io.sockets.emit('chat', data);
+	});
 });
 
 app.use(express.static('public'));
